@@ -30,8 +30,9 @@ class Scraper
       student_hash[:location] = card.css(".student-location").text
       student_hash[:profile_url] = card.css("a")[0]["href"]
     end
-
+    binding.pry
     student_hash
+
 
 
 
